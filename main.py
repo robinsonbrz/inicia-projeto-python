@@ -14,8 +14,13 @@ try:
     #
     os.system(f"code .//{pasta}")
 
+    source = './/.gitignore'
+    destination = f'.//{pasta}//.gitignore'
+    shutil.copyfile(source, destination)
 
-
+    source = './/README.MD'
+    destination = f'.//{pasta}//README.MD'
+    shutil.copyfile(source, destination)
 
 
 
