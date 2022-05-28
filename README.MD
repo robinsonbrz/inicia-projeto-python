@@ -48,6 +48,8 @@ Criar a primeira branch
 
 Executável pyinstaller
 
+Abrir a pasta do projeto com o VSCode
+
 
 # Próximas features 
 
