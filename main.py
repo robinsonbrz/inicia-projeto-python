@@ -1,10 +1,12 @@
 import os
+import shutil
 import sys
 
 try:
     pasta = sys.argv[1]
     # cria a pasta
     os.mkdir(pasta)
+    os.mkdir(f'{pasta}//utils')
 
     # 
     os.system(f"python -m venv {pasta}//venv")
@@ -12,13 +14,9 @@ try:
     #
     os.system(f"code .//{pasta}")
 
-    f = open(f".//{pasta}//.gitignore", "w")
-    f.write("GITIGNORE")
-    f.close()
 
-    f = open(f".//{pasta}//README.MD", "w")
-    f.write("README")
-    f.close()
+
+
 
 
 

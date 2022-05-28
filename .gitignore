@@ -131,3 +131,6 @@ dmypy.json
 */settings.py
 static/
 staticfiles/
+
+*.exe
+/utils
