@@ -99,7 +99,7 @@ O último passo é adicionar a pasta "C:\dist" ao path do sistema
 
 -Clique em "Novo"
 
--Digite o nome da pasta em que colocou o main.exe (neste exemplo "C:\dist")
+-Digite o nome da pasta em que colocou o main.exe ( "C:\dist")
 
 ## Criando um projeto com o programa criado e configurado
 

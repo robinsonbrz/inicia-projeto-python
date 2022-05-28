@@ -11,11 +11,11 @@ try:
 
     os.system(f"python -m venv {pasta}//venv")
     #
-    source = './/.gitignore'
+    source = 'C://dist//.gitignore'
     destination = f'.//{pasta}//.gitignore'
     shutil.copyfile(source, destination)
 
-    source = './/README.MD'
+    source = 'C://dist//README.MD'
     destination = f'.//{pasta}//README.MD'
     shutil.copyfile(source, destination)
 
