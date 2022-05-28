@@ -27,7 +27,7 @@ try:
     print("git commit -m '☝ primeiro commit'")
     os.system(f'cd {pasta} & git commit -m "☝ Primeiro commit"')
     print('git -b "feat001"')
-    os.system(f'cd {pasta} & git -b "feat001"')
+    os.system(f'cd {pasta} & git checkout -b "feat001"')
     
     os.system(f"code .//{pasta}")
 

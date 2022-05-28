@@ -48,10 +48,14 @@ Criar a primeira branch
 
 Executável pyinstaller
 
-Abrir a pasta do projeto com o VSCode
+Abre a pasta do projeto com o VSCode (necessário VSCode instalado)
 
 
-# Próximas features 
+
+
+# Próximas features
+
+criar um instalador, para automaticamente efetuar as configurações de setup path e cópia dos arquivos
 
 <br>
 <br>
@@ -71,10 +75,39 @@ pyinstaller --onefile main.py
 
 Será criada uma pasta dist dentro do seu projeto com um executável: main.exe
 
-antes de executar o programa main.exe, deve-se inserir o seu arquivo .gitignore e o seu README.MD padrão
+## Para utilizar em Windows
+
+Recomendo que crie uma pasta na raiz do Windows "C:\dist"
+
+Dentro da pasta "C:\dist", copiar o arquivo "main.exe" criado nos passos anteriores
+
+Também insira o seu arquivo .gitignore e o seu README.MD padrão, estes arquivos serão integrados nos seus projetos iniciais
+
+O último passo é adicionar a pasta "C:\dist" ao path do sistema
+
+-Pressione as teclas (Windows + r) para executar um comando
+
+-Digite o comando: sysdm.cpl
+
+-Se abrirá as propriedades do sistema
+
+-Clique em Avançado
+
+-Clique no botão "Variáveis do Ambiente..."
+
+-Na variável "path" clique em "editar"
+
+-Clique em "Novo"
+
+-Digite o nome da pasta em que colocou o main.exe (neste exemplo "C:\dist")
+
+## Criando um projeto com o programa criado e configurado
+
+Ao seguir estes passos com sucesso poderá abrir a linha de comando em qualquer pasta que não seja parte de um outro projeto git
+
+digitar: main nome-da-pasta-do-novo-projeto
 
 
-## verificar o procedimento de path do sistema operacional
 
 <br>
 <br>
