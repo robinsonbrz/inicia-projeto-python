@@ -57,6 +57,23 @@ Executável pyinstaller
 ## Utilização do programa 
 _______________________
 
+-Criar e setar o ambiente virtual
+
+-Instalar as dependências:
+
+pip install -r requirements.txt
+
+-Criar o executável com o pyinstaller:
+
+pyinstaller --onefile main.py
+
+Será criada uma pasta dist dentro do seu projeto com um executável: main.exe
+
+antes de executar o programa main.exe, deve-se inserir o seu arquivo .gitignore e o seu README.MD padrão
+
+
+## verificar o procedimento de path do sistema operacional
+
 <br>
 <br>
 <br>
